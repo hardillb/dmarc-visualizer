@@ -2,7 +2,7 @@ FROM python:3.11-alpine
 
 RUN apk add --update --no-cache libxml2-dev libxslt-dev
 RUN apk add --update --no-cache --virtual .build_deps build-base libffi-dev \
-    && pip install parsedmarc \
+    && pip install parsedmarc parsedmarc[elastic]\
     && apk del .build_deps
 
 COPY parsedmarc.ini /

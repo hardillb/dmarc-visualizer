@@ -155,7 +155,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "alias": "",
@@ -292,7 +292,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -426,7 +426,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -717,7 +717,7 @@
           "sort": "desc"
         }
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -984,7 +984,7 @@
           "sort": "desc"
         }
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -1146,7 +1146,7 @@
           "sort": "desc"
         }
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -1308,7 +1308,7 @@
           "sort": "desc"
         }
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -1470,7 +1470,7 @@
           "sort": "desc"
         }
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -1647,7 +1647,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -1752,7 +1752,7 @@
         "textMode": "value_and_name",
         "wideLayout": true
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -1809,6 +1809,7 @@
             },
             "inspect": false
           },
+          "mappings": [],
           "thresholds": {
             "mode": "absolute",
             "steps": [
@@ -1874,7 +1875,7 @@
           }
         ]
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -2023,7 +2024,7 @@
           }
         ]
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -2226,7 +2227,7 @@
           }
         ]
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -2331,7 +2332,8 @@
           },
           "name": "Basemap",
           "noRepeat": false,
-          "type": "default"
+          "opacity": 0.5,
+          "type": "osm-standard"
         },
         "controls": {
           "mouseWheelZoom": true,
@@ -2402,7 +2404,7 @@
           "zoom": 15
         }
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -2559,7 +2561,7 @@
           }
         ]
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -2801,7 +2803,7 @@
           }
         ]
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -3220,7 +3222,7 @@
           }
         ]
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -3525,7 +3527,7 @@
           }
         ]
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -3751,7 +3753,7 @@
           }
         ]
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -3995,7 +3997,7 @@
           }
         ]
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -4245,7 +4247,7 @@
         "showHeader": true,
         "sortBy": []
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -4457,9 +4459,11 @@
       "maxDataPoints": 1,
       "options": {
         "basemap": {
+          "config": {},
           "name": "Basemap",
           "noRepeat": false,
-          "type": "default"
+          "opacity": 0.4,
+          "type": "osm-standard"
         },
         "controls": {
           "mouseWheelZoom": true,
@@ -4527,7 +4531,7 @@
           "zoom": 1
         }
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -4606,6 +4610,7 @@
             },
             "inspect": false
           },
+          "mappings": [],
           "thresholds": {
             "mode": "absolute",
             "steps": [
@@ -4678,7 +4683,7 @@
         "showHeader": true,
         "sortBy": []
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
@@ -4844,7 +4849,7 @@
           }
         ]
       },
-      "pluginVersion": "12.3.0",
+      "pluginVersion": "12.3.4",
       "targets": [
         {
           "bucketAggs": [
